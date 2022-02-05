@@ -1,0 +1,28 @@
+.inp-container {
+  margin: 1rem;
+  position: relative;
+}
+
+.inp-label {
+  letter-spacing: 0.025rem;
+  color: #393d3d;
+  font-size: 1.1rem;
+  margin: 0.3rem 0 0.5rem 0;
+}
+
+.inp {
+  width: 90%;
+  padding: 0.5rem;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+}
+
+.inp-label-required::after {
+  content: "*";
+  color: #ff7272;
+  font-size: 1rem;
+}
+
+.d-block{
+    display: block;
+}
