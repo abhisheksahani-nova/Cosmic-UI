@@ -9,6 +9,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     />
     <link rel="stylesheet" href="input.css" />
+    <link rel="stylesheet" href="../button/button.css" />
     <title>Document</title>
   </head>
   <body>
@@ -38,10 +39,7 @@
     </section>
 
     <section>
-      <form
-        id="validation-form"
-        onsubmit="event.preventDefault(); checkFormValidation()"
-      >
+      <form onsubmit="event.preventDefault(); checkFormValidation()">
         <div class="inp-container">
           <label class="inp-label d-block inp-label-required" for=""
             >Username</label
@@ -49,7 +47,10 @@
           <input class="inp" id="inp-email" placeholder="Enter email address" />
 
           <div class="err-msg-container d-none">
-            <span><i class="fa fa-exclamation-circle err-icon"></i>Enter your username!</span>
+            <span
+              ><i class="fa fa-exclamation-circle err-icon"></i>Enter your
+              username!</span
+            >
           </div>
         </div>
 
@@ -60,7 +61,10 @@
           <input class="inp" id="inp-password" placeholder="Enter text here" />
 
           <div class="err-msg-container d-none">
-            <span><i class="fa fa-exclamation-circle err-icon"></i>Enter your password!</span>
+            <span
+              ><i class="fa fa-exclamation-circle err-icon"></i>Enter your
+              password!</span
+            >
           </div>
         </div>
 
@@ -71,11 +75,17 @@
           >
 
           <div class="err-msg-container d-none">
-            <span><i class="fa fa-exclamation-circle err-icon"></i>Accept our terms & policy before going forward!</span>
+            <span
+              ><i class="fa fa-exclamation-circle err-icon"></i>Accept our terms
+              & policy before going forward!</span
+            >
           </div>
         </div>
 
-        <button class="form-btn" type="submit" id="submit-btn">Submit</button>
+        <div class="inp-container">
+          <button class="btn" type="submit">Submit</button>
+        </div>
+
       </form>
     </section>
 
