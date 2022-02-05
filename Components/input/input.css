@@ -26,3 +26,18 @@
 .d-block{
     display: block;
 }
+
+.d-none{
+    display: none;
+}
+
+/* input with validation */
+
+.err-msg-container{
+    margin: 0.5rem 0 2rem 0.2rem;
+    color: #FF5C58;
+}
+
+.err-icon{
+    margin-right: 5px
+}

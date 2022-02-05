@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
     <link rel="stylesheet" href="input.css" />
     <title>Document</title>
   </head>
@@ -35,12 +38,19 @@
     </section>
 
     <section>
-      <form id="validation-form" onsubmit="event.preventDefault(); checkFormValidation()">
+      <form
+        id="validation-form"
+        onsubmit="event.preventDefault(); checkFormValidation()"
+      >
         <div class="inp-container">
           <label class="inp-label d-block inp-label-required" for=""
             >Username</label
           >
           <input class="inp" id="inp-email" placeholder="Enter email address" />
+
+          <div class="err-msg-container d-none">
+            <span><i class="fa fa-exclamation-circle err-icon"></i>Enter your username!</span>
+          </div>
         </div>
 
         <div class="inp-container">
@@ -48,6 +58,10 @@
             >Password</label
           >
           <input class="inp" id="inp-password" placeholder="Enter text here" />
+
+          <div class="err-msg-container d-none">
+            <span><i class="fa fa-exclamation-circle err-icon"></i>Enter your password!</span>
+          </div>
         </div>
 
         <div class="inp-container">
@@ -55,6 +69,10 @@
           <label class="inp-label inp-label-required"
             >Yes, I accept the Cosmic UI terms & policy</label
           >
+
+          <div class="err-msg-container d-none">
+            <span><i class="fa fa-exclamation-circle err-icon"></i>Accept our terms & policy before going forward!</span>
+          </div>
         </div>
 
         <button class="form-btn" type="submit" id="submit-btn">Submit</button>
