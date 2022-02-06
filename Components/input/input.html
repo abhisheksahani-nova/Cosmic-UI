@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="input.css" />
+    <link rel="stylesheet" href="../button/button.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div>
+        <div class="inp-container">
+          <label class="inp-label d-block inp-label-required" for=""
+            >Email address</label
+          >
+          <input class="inp" placeholder="Enter email address" />
+        </div>
+
+        <div class="inp-container">
+          <label class="inp-label d-block inp-label-required" for=""
+            >Textarea input</label
+          >
+          <textarea
+            class="inp"
+            placeholder="Enter text here"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <form onsubmit="event.preventDefault(); checkFormValidation()">
+        <div class="inp-container">
+          <label class="inp-label d-block inp-label-required" for=""
+            >Username</label
+          >
+          <input class="inp" id="inp-email" placeholder="Enter email address" />
+
+          <div class="err-msg-container d-none">
+            <span
+              ><i class="fa fa-exclamation-circle err-icon"></i>Enter your
+              username!</span
+            >
+          </div>
+        </div>
+
+        <div class="inp-container">
+          <label class="inp-label d-block inp-label-required" for=""
+            >Password</label
+          >
+          <input class="inp" id="inp-password" placeholder="Enter text here" />
+
+          <div class="err-msg-container d-none">
+            <span
+              ><i class="fa fa-exclamation-circle err-icon"></i>Enter your
+              password!</span
+            >
+          </div>
+        </div>
+
+        <div class="inp-container">
+          <input type="checkbox" id="checkbox-termsPolicy" />
+          <label class="inp-label inp-label-required"
+            >Yes, I accept the Cosmic UI terms & policy</label
+          >
+
+          <div class="err-msg-container d-none">
+            <span
+              ><i class="fa fa-exclamation-circle err-icon"></i>Accept our terms
+              & policy before going forward!</span
+            >
+          </div>
+        </div>
+
+        <div class="inp-container">
+          <button class="btn" type="submit">Submit</button>
+        </div>
+
+      </form>
+    </section>
+
+    <script src="input.js"></script>
+  </body>
+</html>

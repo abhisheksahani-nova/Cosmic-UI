@@ -1,0 +1,44 @@
+.inp-container {
+  margin: 1rem;
+  position: relative;
+}
+
+.inp-label {
+  letter-spacing: 0.025rem;
+  color: #393d3d;
+  font-size: 1.1rem;
+  margin: 0.3rem 0 0.5rem 0;
+}
+
+.inp {
+  width: 90%;
+  padding: 0.5rem;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+}
+
+.inp-label-required::after {
+  content: "*";
+  color: #ff7272;
+  font-size: 1rem;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-none{
+    display: none;
+}
+
+/* input with validation */
+
+.err-msg-container{
+    margin: 0.5rem 0 2rem 0.2rem;
+    color: #FF5C58;
+    font-size: 0.9rem;
+}
+
+.err-icon{
+    margin-right: 5px
+}
