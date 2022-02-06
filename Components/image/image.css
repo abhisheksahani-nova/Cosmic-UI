@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 90%;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.res-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.sq-img {
+  width: 11rem;
+  height: 11rem;
+  object-fit: cover;
+}
+
+.rounded-img {
+  border-radius: 50%;
+}
