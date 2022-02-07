@@ -1,0 +1,6 @@
+.sidebar{
+    width: 18%;
+    height: 40rem;
+    background-color: var(--light-bg-clr);
+    margin: 1rem;
+}

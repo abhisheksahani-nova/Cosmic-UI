@@ -27,36 +27,3 @@
 .nav-icon{
     font-size: 1.5rem;
 }
-
-
-
-
-
-
-
-.inner-container{
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    background-color: var(--bg-clr);    
-}
-
-.sidebar{
-    width: 18%;
-    height: 40rem;
-    background-color: var(--light-bg-clr);
-    margin: 1rem;
-}
-
-.main-container{
-    width: 78%;
-    height: 60rem;
-    background-color: var(--light-bg-clr);
-    margin: 1rem 1rem 1rem 0;
-}
-
-.customThemeBox{
-    box-shadow: 0 3px 13px -6px #ccc, 3px 0 10px -6px #ccc;
-    border-radius: 8px;
-}
-
