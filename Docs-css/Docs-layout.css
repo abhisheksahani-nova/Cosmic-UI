@@ -10,11 +10,17 @@
   border-radius: 8px;
 }
 
+.code-container{
+  width: 96%;
+  margin: 2rem 0 !important; 
+  height: 12rem; 
+}
+
 /* main content container of Docs */
 
 .main-container {
   width: 78%;
-  height: 60rem;
   background-color: var(--light-bg-clr);
   margin: 1rem 1rem 1rem 0;
+  padding: 1.5rem 1.5rem 1.5rem 2rem;
 }
