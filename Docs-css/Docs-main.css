@@ -1,3 +1,9 @@
+@import "./Docs-footer.css";
+@import "./Docs-layout.css";
+@import "./Docs-navbar.css";
+@import "./Docs.sidebar.css";
+
+
 .title{
     font-size: 3rem;
     margin-bottom: 1rem;

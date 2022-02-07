@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmic UI | Avatar</title>
+    <script src="../prism.js"></script>
+    <link rel="stylesheet" href="../prism.css" />
+    <link rel="stylesheet" href="../Components/cosmicUI.css" />
+    <link rel="stylesheet" href="../Docs-css/Docs-main.css" />
+  </head>
+  <body>
+    <div class="outer-container">
+      <nav class="nav-bar">
+        <div class="nav-innerContainer">
+          <h2 class="nav-heading">Cosmic UI</h2>
+        </div>
+        <div class="nav-innerContainer">
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+        </div>
+      </nav>
+
+      <div class="inner-container">
+        <aside class="sidebar customThemeBox">
+          <h2 class="drawer-title">Components</h2>
+
+          <ul>
+            <li class="list-item" onclick="handleListItemClick()">Alerts</li>
+            <li class="list-item" onclick="handleListItemClick()">Avatar</li>
+            <li class="list-item" onclick="handleListItemClick()">Badge</li>
+            <li class="list-item" onclick="handleListItemClick()">Button</li>
+            <li class="list-item" onclick="handleListItemClick()">Cards</li>
+            <li class="list-item" onclick="handleListItemClick()">Input</li>
+            <li class="list-item" onclick="handleListItemClick()">Image</li>
+          </ul>
+        </aside>
+
+        <main class="main-container customThemeBox">
+          <div id="avatar">
+            <h1 class="title">Avatar</h1>
+            <p class="subtitle">
+              Avatar are user profile pictures , which are used in almost all
+              modern apps to represent user identity.
+            </p>
+
+            <h2 class="small-title">Example of Image Avatar</h2>
+            <p class="para">
+              The avatar is available in 5 different sizes. To use add common
+              class (e.g., .avatar) and for different sizes of avatar add class
+              accordingly xl, lg, md, sm, xs, (e.g., class="avatar xl").
+            </p>
+
+            <div class="avatar-container">
+              <img
+                class="avatar xl"
+                src="https://semantic-ui.com/images/avatar2/large/elyse.png"
+              />
+              <img
+                class="avatar lg"
+                src="https://semantic-ui.com/images/avatar2/large/matthew.png"
+              />
+              <img
+                class="avatar md"
+                src="https://semantic-ui.com/images/avatar2/large/kristy.png"
+              />
+              <img
+                class="avatar sm"
+                src="https://semantic-ui.com/images/avatar2/large/elyse.png"
+              />
+              <img
+                class="avatar xs"
+                src="https://semantic-ui.com/images/avatar2/large/matthew.png"
+              />
+            </div>
+
+            <pre class="code-container"><code class="language-html">
+&lt;img class="avatar xl" src="https://semantic-ui.com/images/avatar2/large/elyse.png" /&gt;
+
+&lt;img class="avatar lg" src="https://semantic-ui.com/images/avatar2/large/matthew.png" /&gt;
+                
+&lt;img class="avatar md" src="https://semantic-ui.com/images/avatar2/large/kristy.png" /&gt;
+                
+&lt;img class="avatar sm" src="https://semantic-ui.com/images/avatar2/large/elyse.png" /&gt;
+                
+&lt;img class="avatar xs" src="https://semantic-ui.com/images/avatar2/large/matthew.png" /&gt;                
+            </code></pre>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
