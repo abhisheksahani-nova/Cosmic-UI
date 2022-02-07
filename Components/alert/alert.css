@@ -1,11 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: pink;
-  color: #555555;
-}
-
 .alert-container {
   width: 55rem;
   height: 30rem;
