@@ -1,0 +1,41 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css";
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+@import "./alert/alert.css";
+@import "./avatar/avatar.css";
+@import "./badge/badge.css";
+@import "./button/button.css";
+@import "./cards/cards.css";
+@import "./image/image.css";
+@import "./input/input.css";
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	color: #555555;
+}
+
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;	
+}
+
+
+:root {
+	
+    --primary-clr: #AAB8C1;
+    --light-primary-clr: #C7D7CA;
+
+    --secondary-clr: #EEDAC1;
+
+    --bg-clr: #F6F5FB;
+    --light-bg-clr: #FFFFFF;
+
+    --font-color: #555555;
+
+}
