@@ -12,8 +12,9 @@
 
 .code-container{
   width: 96%;
-  margin: 2rem 0 !important; 
-  height: 12rem; 
+  margin: 3rem 0 !important; 
+  height: 15rem; 
+  outline: none;
 }
 
 /* main content container of Docs */

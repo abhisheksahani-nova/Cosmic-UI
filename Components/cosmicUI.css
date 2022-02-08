@@ -37,6 +37,25 @@ body {
     --bg-clr: #F6F5FB;
     --light-bg-clr: #FFFFFF;
 
-    --font-color: #555555;
+    --success-pri-clr: #c5f7dc;
+    --success-sec-clr: #3ac279;
+    --success-dark-clr: #064635;
+
+    --warning-pri-clr: #ffe8c3;
+    --warning-sec-clr: #e89f29;
+    --warning-dark-clr: #664d03;
+
+    --info-pri-clr: #cde2ff;
+    --info-sec-clr: #3d84e5;
+    --info-dark-clr: #084298;
+
+    --error-pri-clr: #ffcfcb;
+    --error-sec-clr: #e9594c;
+    --error-dark-clr: #842029;
+
+    --custom-pri-clr: #e9e9eb;
+    --custom-sec-clr: #707683;
+    --custom-dark-clr: #41464b;
+
 
 }
