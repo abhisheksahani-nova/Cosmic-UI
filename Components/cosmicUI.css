@@ -1,6 +1,6 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css";
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
 
 @import "./alert/alert.css";
 @import "./avatar/avatar.css";
@@ -10,52 +10,46 @@
 @import "./image/image.css";
 @import "./input/input.css";
 
-
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-	color: #555555;
-    
+  color: #555555;
 }
 
 * {
-	margin: 0;
-    padding: 0;
-    box-sizing: border-box;	
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
 :root {
-	
-    --primary-clr: #AAB8C1;
-    --light-primary-clr: #C7D7CA;
+  --primary-clr: #aab8c1;
+  --light-primary-clr: #c7d7ca;
 
-    --secondary-clr: #EEDAC1;
+  --secondary-clr: #eedac1;
 
-    --bg-clr: #F6F5FB;
-    --light-bg-clr: #FFFFFF;
+  --bg-clr: #f6f5fb;
+  --light-bg-clr: #ffffff;
 
-    --success-pri-clr: #c5f7dc;
-    --success-sec-clr: #3ac279;
-    --success-dark-clr: #064635;
+  --success-pri-clr: #c5f7dc;
+  --success-sec-clr: #3ac279;
+  --success-dark-clr: #064635;
 
-    --warning-pri-clr: #ffe8c3;
-    --warning-sec-clr: #e89f29;
-    --warning-dark-clr: #664d03;
+  --warning-pri-clr: #ffe8c3;
+  --warning-sec-clr: #e89f29;
+  --warning-dark-clr: #664d03;
 
-    --info-pri-clr: #cde2ff;
-    --info-sec-clr: #3d84e5;
-    --info-dark-clr: #084298;
+  --info-pri-clr: #cde2ff;
+  --info-sec-clr: #3d84e5;
+  --info-dark-clr: #084298;
 
-    --error-pri-clr: #ffcfcb;
-    --error-sec-clr: #e9594c;
-    --error-dark-clr: #842029;
+  --error-pri-clr: #ffcfcb;
+  --error-sec-clr: #e9594c;
+  --error-dark-clr: #842029;
 
-    --custom-pri-clr: #e9e9eb;
-    --custom-sec-clr: #707683;
-    --custom-dark-clr: #41464b;
-
-
+  --custom-pri-clr: #e9e9eb;
+  --custom-sec-clr: #707683;
+  --custom-dark-clr: #41464b;
 }
