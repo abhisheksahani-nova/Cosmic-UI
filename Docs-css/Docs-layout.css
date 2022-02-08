@@ -1,0 +1,26 @@
+.inner-container {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--bg-clr);
+}
+
+.customThemeBox {
+  box-shadow: 0 3px 13px -6px #ccc, 3px 0 10px -6px #ccc;
+  border-radius: 8px;
+}
+
+.code-container{
+  width: 96%;
+  height: 15rem; 
+  outline: none;
+}
+
+/* main content container of Docs */
+
+.main-container {
+  width: 78%;
+  background-color: var(--light-bg-clr);
+  margin: 1rem 1rem 1rem 0;
+  padding: 1.5rem 1.5rem 1.5rem 2rem;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../prism.js"></script>
+    <link rel="stylesheet" href="../prism.css">
+    <link rel="stylesheet" href="../Components/cosmicUI.css" />
+    <link rel="stylesheet" href="../Docs-css/Docs-main.css" />
+    <title>Cosmic UI | Alerts</title>
+  </head>
+  <body>
+    <div class="outer-container">
+      <nav class="nav-bar">
+        <div class="nav-innerContainer">
+          <h2 class="nav-heading">Cosmic UI</h2>
+        </div>
+        <div class="nav-innerContainer">
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+        </div>
+      </nav>
+
+      <div class="inner-container">
+        <aside class="sidebar customThemeBox">
+          <h2 class="drawer-title">Components</h2>
+
+          <ul>
+            <li class="list-item" onclick="handleListItemClick()">Alerts</li>
+            <li class="list-item" onclick="handleListItemClick()">Avatar</li>
+            <li class="list-item" onclick="handleListItemClick()">Badge</li>
+            <li class="list-item" onclick="handleListItemClick()">Button</li>
+            <li class="list-item" onclick="handleListItemClick()">Cards</li>
+            <li class="list-item" onclick="handleListItemClick()">Input</li>
+            <li class="list-item" onclick="handleListItemClick()">Image</li>
+          </ul>
+        </aside>
+
+        <main class="main-container customThemeBox">
+
+          <div id="alerts">
+            <h1 class="title">Alerts</h1>
+            <p class="subtitle">
+              Alerts are used to grab user attention to show important message
+              on the screen without interrupting the user's flow.
+            </p>
+
+            <h2 class="small-title">Simple Alerts</h2>
+            <p class="para">
+              There are 5 types of simple alerts available to use as per the
+              situation like success, warning, info, error, custom. <br />
+              To use alert add common class (e.g., .alert) and add
+              second class as per the message you want to give user, for example
+              to give error alert message use (e.g., class = "alert
+              alert-error").
+            </p>
+
+            <div class="alert-container">
+              <div class="alert alert-success">
+                <div class="alert-content">
+                  <img class="alert-icon" src="../Components/icons/checked.png" />
+                  <h3 class="bold-normal">A success alert example!!!!</h3>
+                </div>
+              </div>
+
+              <div class="alert alert-warning">
+                <div class="alert-content">
+                  <img class="alert-icon" src="../Components/icons/warning.png" />
+                  <h3 class="bold-normal">A warning alert example!!!</h3>
+                </div>
+              </div>
+
+              <div class="alert alert-info">
+                <div class="alert-content">
+                  <img class="alert-icon" src="../Components/icons/information.png" />
+                  <h3 class="bold-normal">A information alert example!!!</h3>
+                </div>
+              </div>
+              <div class="alert alert-error">
+                <div class="alert-content">
+                  <img class="alert-icon" src="../Components/icons/error.png" />
+                  <h3 class="bold-normal">A error alert example!!!</h3>
+                </div>
+              </div>
+
+              <div class="alert alert-custom-msg">
+                <div class="alert-content">
+                  <img class="alert-icon" src="../Components/icons/message.png" />
+                  <h3 class="bold-normal">A custom message alert example!!! </h3>
+                </div>
+              </div>
+            </div>
+
+            <pre class="code-container"><code class="language-html">
+&lt;div clbss="alert alert-success"&gt;
+  &lt;div class="alert-content"&gt;
+    &lt;img class="alert-icon" src="./Components/icons/checked.png" /&gt;
+    &lt;h3 class="bold-normal"&gt;A success alert example!!!!&lt;/h3&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+            
+&lt;div class="alert alert-warning"&gt;
+  &lt;div class="alert-content"&gt;
+    &lt;img class="alert-icon" src="./Components/icons/warning.png" /&gt;
+    &lt;h3 class="bold-normal"&gt;A warning alert example!!!&lt;/h3&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+            
+&lt;div class="alert alert-info"&gt;
+  &lt;div class="alert-content"&gt;
+    &lt;img class="alert-icon" src="./Components/icons/information.png" /&gt;
+    &lt;h3 class="bold-normal"&gt;A information alert example!!!&lt;/h3&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+            
+&lt;div class="alert alert-error"&gt;
+  &lt;div class="alert-content"&gt;
+    &lt;img class="alert-icon" src="./Components/icons/error.png" /&gt;
+    &lt;h3 class="bold-normal"&gt;A error alert example!!!&lt;/h3&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+            
+&lt;div class="alert alert-custom-msg"&gt;
+  &lt;div class="alert-content"&gt;
+    &lt;img class="alert-icon" src="./Components/icons/message.png" /&gt;
+    &lt;h3 class="bold-normal"&gt;A custom message alert example!!!&lt;/h3&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+            
+            </code></pre>
+          </div>
+
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
