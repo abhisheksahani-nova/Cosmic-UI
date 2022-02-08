@@ -53,6 +53,8 @@ body {
   --custom-sec-clr: #707683;
   --custom-dark-clr: #41464b;
 
-  --border-clr: #F0F0F0;
-
+  --border-clr: #f0f0f0;
+  --white: #fff;
+  --red: #db1e1b;
+  --ecommerce-btn-clr: #333333;
 }
