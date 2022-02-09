@@ -8,7 +8,7 @@
 }
 
 .drawer-title {
-    margin: 2rem 0 1rem 2.5rem
+  margin: 2rem 0 1rem 2.5rem;
 }
 
 .list-item {
@@ -21,6 +21,6 @@
   padding: 0.8rem 0 0.8rem 2.8rem;
 }
 
-.list-item:hover{
-    background-color: var(--bg-clr);
+.list-item:hover {
+  background-color: var(--bg-clr);
 }

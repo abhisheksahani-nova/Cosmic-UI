@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmic UI - Badge</title>
+    <script src="../prism.js"></script>
+    <link rel="stylesheet" href="../prism.css" />
+    <link rel="stylesheet" href="../Components/cosmicUI.css" />
+    <link rel="stylesheet" href="../Docs-css/Docs-main.css" />
+  </head>
+  <body>
+    <div class="outer-container">
+      <nav class="nav-bar">
+        <div class="nav-innerContainer">
+          <h2 class="nav-heading">Cosmic UI</h2>
+        </div>
+        <div class="nav-innerContainer">
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+        </div>
+      </nav>
+
+      <div class="inner-container">
+        <aside class="sidebar customThemeBox">
+          <h2 class="drawer-title">Components</h2>
+
+          <ul>
+            <li class="list-item" onclick="handleListItemClick()">Alerts</li>
+            <li class="list-item" onclick="handleListItemClick()">Avatar</li>
+            <li class="list-item" onclick="handleListItemClick()">Badge</li>
+            <li class="list-item" onclick="handleListItemClick()">Button</li>
+            <li class="list-item" onclick="handleListItemClick()">Cards</li>
+            <li class="list-item" onclick="handleListItemClick()">Input</li>
+            <li class="list-item" onclick="handleListItemClick()">Image</li>
+          </ul>
+        </aside>
+
+        <main class="main-container customThemeBox">
+          <div id="badges">
+            <h1 class="title">Badges</h1>
+            <p class="subtitle">
+              Badges are used in multiple ways to show some user information
+              like user status or notification count.
+            </p>
+
+            <h2 class="small-title">Status Badge</h2>
+            <p class="para">
+              There are 3 types of status badge available online, offline, away,
+              you can use it with avatar class to see its effect, badges are
+              also available in 2 sizes lg and sm, copy and use below html code.
+            </p>
+
+            <div class="container">
+              <div class="badge-container">
+                <img
+                  class="avatar lg"
+                  src="https://semantic-ui.com/images/avatar2/large/elyse.png"
+                />
+                <span class="badge profile-lg badge-lg status-online"></span>
+              </div>
+              <div class="badge-container">
+                <img
+                  class="avatar md"
+                  src="https://semantic-ui.com/images/avatar2/large/matthew.png"
+                />
+                <span class="badge profile-md badge-lg status-offline"></span>
+              </div>
+              <div class="badge-container">
+                <img
+                  class="avatar md"
+                  src="https://semantic-ui.com/images/avatar2/large/matthew.png"
+                />
+                <span class="badge profile-md badge-lg status-online"></span>
+              </div>
+              <div class="badge-container">
+                <img
+                  class="avatar xs"
+                  src="https://semantic-ui.com/images/avatar2/large/kristy.png"
+                />
+                <span class="badge profile-xs badge-sm status-away"></span>
+              </div>
+              <div class="badge-container">
+                <img
+                  class="avatar xs"
+                  src="https://semantic-ui.com/images/avatar2/large/elyse.png"
+                />
+                <span class="badge profile-xs badge-sm status-away"></span>
+              </div>
+            </div>
+
+            <pre class="code-container"><code class="language-html">
+&#60;div class="badge-container"&#62;
+    &#60;img
+      class="avatar lg"
+      src="https://semantic-ui.com/images/avatar2/large/elyse.png"
+    /&#62;
+    &#60;span class="badge profile-lg badge-lg status-online"&#62;&#60;/span&#62;
+&#60;/div&#62;
+
+&#60;div class="badge-container"&#62;
+    &#60;img
+      class="avatar md"
+      src="https://semantic-ui.com/images/avatar2/large/matthew.png"
+    /&#62;
+    &#60;span class="badge profile-md badge-lg status-offline"&#62;&#60;/span&#62;
+&#60;/div&#62;
+
+&#60;div class="badge-container"&#62;
+    &#60;img
+      class="avatar md"
+      src="https://semantic-ui.com/images/avatar2/large/matthew.png"
+    /&#62;
+    &#60;span class="badge profile-md badge-lg status-online"&#62;&#60;/span&#62;
+&#60;/div&#62;
+
+&#60;div class="badge-container"&#62;
+    &#60;img
+      class="avatar xs"
+      src="https://semantic-ui.com/images/avatar2/large/kristy.png"
+    /&#62;
+    &#60;span class="badge profile-xs badge-sm status-away"&#62;&#60;/span&#62;
+&#60;/div&#62; 
+            </code></pre>
+
+            <h2 class="small-title">Notification Badge</h2>
+            <p class="para">
+              To show notification count you can use notification badge,they are
+              available in 2 types notification-left-badge &
+              notification-right-badge, to use copy the code from below.
+            </p>
+
+            <div class="container">
+              <div class="badge-container">
+                <button class="badge-btn">Action</button>
+                <span class="badge notification-left-badge badge-lg">8</span>
+              </div>
+
+              <div class="badge-container">
+                <img src="../Components/icons/home.png" alt="home icon" />
+                <span class="badge notification-right-badge badge-lg">7</span>
+              </div>
+
+              <div class="badge-container">
+                <img src="../Components/icons/bell.png" alt="bell icon" />
+                <span class="badge notification-right-badge badge-lg">5</span>
+              </div>
+
+              <div class="badge-container">
+                <img src="../Components/icons/shopping-cart.png" alt="shopping cart icon" />
+                <span class="badge notification-right-badge badge-lg">2</span>
+              </div>
+
+              <div class="badge-container">
+                <img src="../Components/icons/email.png" alt="email icon" />
+                <span class="badge notification-right-badge badge-lg">4</span>
+              </div>
+
+              <div class="badge-container">
+                <button class="badge-btn">Hide</button>
+                <span class="badge notification-right-badge badge-lg">9</span>
+              </div>
+            </div>
+
+            <pre class="code-container"><code class="language-html">
+&#60;div class="badge-container"&#62;
+  &#60;button class="badge-btn"&#62;Action&#60;/button&#62;
+  &#60;span class="badge notification-left-badge badge-lg"&#62;8&#60;/span&#62;
+&#60;/div&#62;
+
+&#60;div class="badge-container"&#62;
+  &#60;img src="../icons/home.png" alt="home icon" /&#62;
+  &#60;span class="badge notification-right-badge badge-lg"&#62;7&#60;/span&#62;
+&#60;/div&#62;
+
+&#60;div class="badge-container"&#62;
+  &#60;img src="../icons/bell.png" alt="home icon" /&#62;
+  &#60;span class="badge notification-right-badge badge-lg"&#62;5&#60;/span&#62;
+&#60;/div&#62;
+
+&#60;div class="badge-container"&#62;
+  &#60;img src="../icons/shopping-cart.png" alt="home icon" /&#62;
+  &#60;span class="badge notification-right-badge badge-lg"&#62;2&#60;/span&#62;
+&#60;/div&#62;
+
+&#60;div class="badge-container"&#62;
+  &#60;img src="../icons/email.png" alt="home icon" /&#62;
+  &#60;span class="badge notification-right-badge badge-lg"&#62;4&#60;/span&#62;
+&#60;/div&#62;
+
+&#60;div class="badge-container"&#62;
+  &#60;button class="badge-btn"&#62;Hide&#60;/button&#62;
+  &#60;span class="badge notification-right-badge badge-lg"&#62;9&#60;/span&#62;
+&#60;/div&#62; 
+            </code></pre>
+
+          </div>
+        </main>
+
+      </div>
+    </div>
+  </body>
+</html>

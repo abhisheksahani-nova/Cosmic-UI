@@ -1,92 +1,91 @@
-.btn{
-    background-color: #FF3F6C;
-    color: white;
-    border: 0;
-    padding: 0.563rem 0.938rem;
-    font-size: 0.938rem;
-    border-radius: 5px;
-    cursor: pointer;
+.btn {
+  background-color: var(--primary-clr);
+  color: var(--white);
+  border: 0;
+  padding: 0.563rem 0.938rem;
+  font-size: 0.938rem;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.btn-outline{
-    background-color: white;
-    color: #FF3F6C;
-    border: 1px solid #FF3F6C;
+.btn-outline {
+  background-color: var(--white);
+  color: var(--primary-clr);
+  border: 1px solid var(--primary-clr);
 }
 
-.btn-outline:hover{
-    background-color: #FF3F6C;
-    color: white;
+.btn-outline:hover {
+  background-color: var(--primary-clr);
+  color: var(--white);
 }
 
-.btn-text{
-    background-color: transparent;
-    color: #FF3F6C;
-    text-decoration: underline;
+.btn-text {
+  background-color: transparent;
+  color: var(--primary-clr);
+  text-decoration: underline;
 }
 
-.btn-icon{
-    color: #FF3F6C;
-    background-color: transparent;
-    border: 0;
-    font-size: 1.3rem;
-
+.btn-icon {
+  color: var(--primary-clr);
+  background-color: transparent;
+  border: 0;
+  font-size: 1.3rem;
 }
 
-.btn-primary{
-    background-color: #007BFF;
+.btn-primary {
+  background-color: var(--primary-clr);
 }
 
-.btn-secondary{
-    background-color: #6C757D ;
+.btn-secondary {
+  background-color: var(--secondary-clr);
 }
 
-.btn-success{
-    background-color: #28A745 ;
+.btn-success {
+  background-color: var(--success-sec-clr);
 }
 
-.btn-danger{
-    background-color: #DC3545 ;
+.btn-danger {
+  background-color: var(--error-sec-clr);
 }
 
-.btn-warning{
-    background-color: #FFC107 ;
+.btn-warning {
+  background-color: var(--warning-sec-clr);
 }
 
-.btn-info{
-    background-color: #17A2B8 ;
+.btn-info {
+  background-color: var(--info-sec-clr);
 }
 
-.btn-dark{
-    background-color: #343A40 ;
+.btn-dark {
+  background-color: var(--custom-dark-clr);
 }
 
-.icon{
-    margin-right: 8px;
-    font-size: 1.2rem;
+.icon {
+  margin-right: 8px;
+  font-size: 1.2rem;
 }
 
-.btn-lg{
-    font-size: 1.125rem;
-    padding: 1rem 1.1rem;
+.btn-lg {
+  font-size: 1.125rem;
+  padding: 1rem 1.1rem;
 }
 
-.btn-sm{
-    font-size: 0.813rem;
-    padding: 8px 10px;
+.btn-sm {
+  font-size: 0.813rem;
+  padding: 8px 10px;
 }
 
-.btn-float-action{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    font-size: 1.188rem;
+.btn-float-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 1.188rem;
 }
 
-.btn-ecommerce{
-    width: 93%;
-    background-color: #333333;
+.btn-ecommerce {
+  width: 93%;
+  background-color: var(--ecommerce-btn-clr);
 }

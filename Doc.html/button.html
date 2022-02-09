@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmic UI - Button</title>
+    <script src="../prism.js"></script>
+    <link rel="stylesheet" href="../prism.css" />
+    <link rel="stylesheet" href="../Components/cosmicUI.css" />
+    <link rel="stylesheet" href="../Docs-css/Docs-main.css" />
+  </head>
+  <body>
+    <div class="outer-container">
+      <nav class="nav-bar">
+        <div class="nav-innerContainer">
+          <h2 class="nav-heading">Cosmic UI</h2>
+        </div>
+        <div class="nav-innerContainer">
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+        </div>
+      </nav>
+
+      <div class="inner-container">
+        <aside class="sidebar customThemeBox">
+          <h2 class="drawer-title">Components</h2>
+
+          <ul>
+            <li class="list-item" onclick="handleListItemClick()">Alerts</li>
+            <li class="list-item" onclick="handleListItemClick()">Avatar</li>
+            <li class="list-item" onclick="handleListItemClick()">Badge</li>
+            <li class="list-item" onclick="handleListItemClick()">Button</li>
+            <li class="list-item" onclick="handleListItemClick()">Cards</li>
+            <li class="list-item" onclick="handleListItemClick()">Input</li>
+            <li class="list-item" onclick="handleListItemClick()">Image</li>
+          </ul>
+        </aside>
+
+        <main class="main-container customThemeBox">
+          <div id="buttons">
+            <h1 class="title">Buttons</h1>
+            <p class="subtitle">
+              Buttons make the apps interactive & dynamic, it helps user to take
+              action with just one click
+            </p>
+
+            <h2 class="small-title">Primary buttons</h2>
+            <p class="para">
+              Primary buttons are the most important button of any app, which
+              you want to use throughout your app.
+            </p>
+
+            <div class="container">
+              <button class="btn">Solid</button>
+              <button class="btn btn-outline">Outline</button>
+              <button class="btn btn-text">Text</button>
+              <button class="btn-icon">
+                <span><i class="fa fa-shopping-cart"></i></span>
+              </button>
+              <button class="btn">
+                <span class="icon"><i class="fa fa-heart"></i></span> Heart
+              </button>
+              <button class="btn">
+                <span class="icon"><i class="fa fa-shopping-cart"></i></span>
+                Add to Cart
+              </button>
+            </div>
+
+            <pre class="code-container"><code class="language-html">
+&#60;button class="btn"&#62;Solid&#60;/button&#62;
+
+&#60;button class="btn btn-outline"&#62;Outline&#60;/button&#62;
+
+&#60;button class="btn btn-text"&#62;Text&#60;/button&#62;
+
+&#60;button class="btn-icon"&#62;
+  &#60;span&#62;&#60;i class="fa fa-shopping-cart"&#62;&#60;/i&#62;&#60;/span&#62;
+&#60;/button&#62;
+
+&#60;button class="btn"&#62;
+  &#60;span class="icon"&#62;&#60;i class="fa fa-heart"&#62;&#60;/i&#62;&#60;/span&#62; Heart
+&#60;/button&#62;
+
+&#60;button class="btn"&#62;
+  &#60;span class="icon"&#62;&#60;i class="fa fa-shopping-cart"&#62;&#60;/i&#62;&#60;/span&#62;
+  Add to Cart
+&#60;/button&#62;  
+            </code></pre>
+
+            <h2 class="small-title">Common buttons</h2>
+            <p class="para">
+              There are common buttons which you will see in any app like
+              success, danger, warning, info, dark, secondary buttons which have
+              there own purpose.
+            </p>
+
+            <div class="container">
+              <button class="btn btn-success">Success</button>
+              <button class="btn btn-danger">Danger</button>
+              <button class="btn btn-warning">Warning</button>
+              <button class="btn btn-info">Info</button>
+              <button class="btn btn-dark">Dark</button>
+              <button class="btn btn-secondary">Secondary</button>
+            </div>
+
+            <pre class="code-container"><code class="language-html">
+&#60;button class="btn btn-success"&#62;Success&#60;/button&#62;
+
+&#60;button class="btn btn-danger"&#62;Danger&#60;/button&#62;
+
+&#60;button class="btn btn-warning"&#62;Warning&#60;/button&#62;
+
+&#60;button class="btn btn-info"&#62;Info&#60;/button&#62;
+
+&#60;button class="btn btn-dark"&#62;Dark&#60;/button&#62;
+
+&#60;button class="btn btn-secondary"&#62;Secondary&#60;/button&#62;  
+            </code></pre>
+
+            <h2 class="small-title">Sizes</h2>
+            <p class="para">
+              There are large and small buttons, add btn-lg or btn-sm class for
+              it.
+            </p>
+
+            <div class="container">
+              <button class="btn btn-primary btn-lg">Large button</button>
+              <button class="btn btn-primary btn-sm">Small button</button>
+            </div>
+
+            <pre class="code-container"><code class="language-html">
+&#60;button class="btn btn-primary btn-lg"&#62;Large button&#60;/button&#62;
+
+&#60;button class="btn btn-primary btn-sm"&#62;Small button&#60;/button&#62;
+            </code></pre>
+
+            <h2 class="small-title">Floating action button</h2>
+            <p class="para">
+              Floating action button with icons allow users to take single
+              actions like delete button, add btn-float-action class for it.
+            </p>
+
+            <div class="container">
+              <button class="btn btn-float-action">
+                <i class="fa fa-arrow-up"></i>
+              </button>
+              <button class="btn btn-float-action">
+                <i class="fa fa-plus"></i>
+              </button>
+              <button class="btn btn-float-action">
+                <i class="fa fa-pencil"></i>
+              </button>
+            </div>
+
+            <pre class="code-container"><code class="language-html">
+&#60;button class="btn btn-float-action"&#62;
+  &#60;i class="fa fa-arrow-up"&#62;&#60;/i&#62;
+&#60;/button&#62;
+
+&#60;button class="btn btn-float-action"&#62;
+  &#60;i class="fa fa-plus"&#62;&#60;/i&#62;
+&#60;/button&#62;
+
+&#60;button class="btn btn-float-action"&#62;
+  &#60;i class="fa fa-pencil"&#62;&#60;/i&#62;
+&#60;/button&#62;  
+            </code></pre>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
