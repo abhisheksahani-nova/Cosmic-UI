@@ -14,8 +14,7 @@
 }
 
 .card-heading {
-  margin-left: 12px;
-  margin-bottom: 4px;
+  margin: 12px 0 4px 12px;
   letter-spacing: 0.025rem;
   color: #393d3d;
 }
