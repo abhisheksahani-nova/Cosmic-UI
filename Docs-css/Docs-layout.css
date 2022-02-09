@@ -10,10 +10,20 @@
   border-radius: 8px;
 }
 
-.code-container{
+.code-container {
   width: 96%;
-  height: 15rem; 
+  height: 15rem;
   outline: none;
+}
+
+.box-container {
+  width: 96%;
+  border: 2px solid var(--border-clr);
+  padding: 2rem 0;
+}
+
+.pd-2 {
+  padding: 2rem;
 }
 
 /* main content container of Docs */
