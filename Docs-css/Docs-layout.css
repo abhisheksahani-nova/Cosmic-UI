@@ -16,6 +16,10 @@
   outline: none;
 }
 
+.pd-2{
+  padding: 2rem;
+}
+
 /* main content container of Docs */
 
 .main-container {
@@ -24,3 +28,4 @@
   margin: 1rem 1rem 1rem 0;
   padding: 1.5rem 1.5rem 1.5rem 2rem;
 }
+
