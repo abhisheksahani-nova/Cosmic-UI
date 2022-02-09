@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../prism.js"></script>
+    <link rel="stylesheet" href="../prism.css" />
+    <link rel="stylesheet" href="../Components/cosmicUI.css" />
+    <link rel="stylesheet" href="../Docs-css/Docs-main.css" />
+    <title>Cosmic UI | Input</title>
+  </head>
+  <body>
+    <div class="outer-container">
+      <nav class="nav-bar">
+        <div class="nav-innerContainer">
+          <h2 class="nav-heading">Cosmic UI</h2>
+        </div>
+        <div class="nav-innerContainer">
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+        </div>
+      </nav>
+
+      <div class="inner-container">
+        <aside class="sidebar customThemeBox">
+          <h2 class="drawer-title">Components</h2>
+
+          <ul>
+            <li class="list-item" onclick="handleListItemClick()">Alerts</li>
+            <li class="list-item" onclick="handleListItemClick()">Avatar</li>
+            <li class="list-item" onclick="handleListItemClick()">Badge</li>
+            <li class="list-item" onclick="handleListItemClick()">Button</li>
+            <li class="list-item" onclick="handleListItemClick()">Cards</li>
+            <li class="list-item" onclick="handleListItemClick()">Input</li>
+            <li class="list-item" onclick="handleListItemClick()">Image</li>
+          </ul>
+        </aside>
+
+        <main class="main-container customThemeBox">
+          <div id="alerts">
+            <h1 class="title">Input</h1>
+            <p class="subtitle">Inputs are the primary source to take user information, below is the styled inputs available.</p>
+
+            <h2 class="small-title">Simple Inputs</h2>
+            <p class="para">For simple style inputs use class inp-label on label and inp class on input.</p>
+
+            <div class="box-container">
+              <div class="inp-container">
+                <label class="inp-label d-block inp-label-required" for=""
+                  >Email address</label
+                >
+                <input class="inp" placeholder="Enter email address" />
+              </div>
+
+              <div class="inp-container">
+                <label class="inp-label d-block inp-label-required" for=""
+                  >Textarea input</label
+                >
+                <textarea
+                  class="inp"
+                  placeholder="Enter text here"
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+            </div>
+
+            <pre class="code-container"><code class="language-html">
+&lt;div class="inp-container"&gt;
+  &lt;label class="inp-label d-block inp-label-required" for=""
+    &gt;Email address&lt;/label
+  &gt;
+  &lt;input class="inp" placeholder="Enter email address" /&gt;
+&lt;/div&gt;
+
+&lt;div class="inp-container"&gt;
+  &lt;label class="inp-label d-block inp-label-required" for=""
+    &gt;Textarea input&lt;/label
+  &gt;
+  &lt;textarea
+    class="inp"
+    placeholder="Enter text here"
+    name=""
+    id=""
+    cols="30"
+    rows="10"
+  &gt;&lt;/textarea&gt;
+&lt;/div&gt;            
+            </code></pre>
+
+            <h2 class="small-title">Validation input</h2>
+            <p class="para">The validation input have error message if user enters invalid value. To use check the below html code.</p>
+
+            <div class="box-container">
+              <form onsubmit="event.preventDefault(); checkFormValidation()">
+                <div class="inp-container">
+                  <label class="inp-label d-block inp-label-required" for=""
+                    >Username</label
+                  >
+                  <input
+                    class="inp"
+                    id="inp-email"
+                    placeholder="Enter email address"
+                  />
+
+                  <div class="err-msg-container d-none">
+                    <span
+                      ><i class="fa fa-exclamation-circle err-icon"></i>Enter
+                      your username!</span
+                    >
+                  </div>
+                </div>
+
+                <div class="inp-container">
+                  <label class="inp-label d-block inp-label-required" for=""
+                    >Password</label
+                  >
+                  <input
+                    class="inp"
+                    id="inp-password"
+                    placeholder="Enter text here"
+                  />
+
+                  <div class="err-msg-container d-none">
+                    <span
+                      ><i class="fa fa-exclamation-circle err-icon"></i>Enter
+                      your password!</span
+                    >
+                  </div>
+                </div>
+
+                <div class="inp-container">
+                  <input type="checkbox" id="checkbox-termsPolicy" />
+                  <label class="inp-label inp-label-required"
+                    >Yes, I accept the Cosmic UI terms & policy</label
+                  >
+
+                  <div class="err-msg-container d-none">
+                    <span
+                      ><i class="fa fa-exclamation-circle err-icon"></i>Accept
+                      our terms & policy before going forward!</span
+                    >
+                  </div>
+                </div>
+
+                <div class="inp-container">
+                  <button class="btn" type="submit">Submit</button>
+                </div>
+              </form>
+            </div>
+
+            <pre class="code-container"><code class="language-html">
+&lt;form onsubmit="event.preventDefault(); checkFormValidation()"&gt;
+  &lt;div class="inp-container"&gt;
+    &lt;label class="inp-label d-block inp-label-required" for=""&gt;Username&lt;/label&gt;
+    &lt;input class="inp" id="inp-email" placeholder="Enter email address" /&gt;
+
+    &lt;div class="err-msg-container d-none"&gt;
+      &lt;span
+        &gt;&lt;i class="fa fa-exclamation-circle err-icon"&gt;&lt;/i&gt;Enter your
+        username!&lt;/span
+      &gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class="inp-container"&gt;
+    &lt;label class="inp-label d-block inp-label-required" for=""&gt;Password&lt;/label&gt;
+    &lt;input class="inp" id="inp-password" placeholder="Enter text here" /&gt;
+
+    &lt;div class="err-msg-container d-none"&gt;
+      &lt;span
+        &gt;&lt;i class="fa fa-exclamation-circle err-icon"&gt;&lt;/i&gt;Enter your
+        password!&lt;/span
+      &gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class="inp-container"&gt;
+    &lt;input type="checkbox" id="checkbox-termsPolicy" /&gt;
+    &lt;label class="inp-label inp-label-required"
+      &gt;Yes, I accept the Cosmic UI terms & policy&lt;/label
+    &gt;
+
+    &lt;div class="err-msg-container d-none"&gt;
+      &lt;span
+        &gt;&lt;i class="fa fa-exclamation-circle err-icon"&gt;&lt;/i&gt;Accept our terms &
+        policy before going forward!&lt;/span
+      &gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class="inp-container"&gt;
+    &lt;button class="btn" type="submit"&gt;Submit&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/form&gt;
+            </code></pre>
+
+            <h2 class="small-title">Javascript</h2>
+
+            <pre class="code-container"><code class="language-html">
+const emailInput = document.getElementById("inp-email");
+const passwordInput = document.getElementById("inp-password");
+const termsPolicyInput = document.getElementById("checkbox-termsPolicy");
+const errMessage = document.getElementsByClassName("err-msg-container")
+
+function checkFormValidation(){
+
+    if(emailInput.value == ""){
+        errMessage[0].style.display = "block";
+    }else{
+        errMessage[0].style.display = "none";
+    }
+
+    if(passwordInput.value == ""){
+        errMessage[1].style.display = "block";
+    }else{
+        errMessage[1].style.display = "none";
+    }
+
+    if(!termsPolicyInput.checked){
+        errMessage[2].style.display = "block";
+    }else{
+        errMessage[2].style.display = "none";
+    }
+}
+            </code></pre>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="../Components/input/input.js"></script>
+  </body>
+</html>
