@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../prism.js"></script>
+    <link rel="stylesheet" href="../prism.css" />
+    <link rel="stylesheet" href="../Components/cosmicUI.css" />
+    <link rel="stylesheet" href="../Docs-css/Docs-main.css" />
+    <title>Cosmic UI | Cards</title>
+  </head>
+  <body>
+    <div class="outer-container">
+      <nav class="nav-bar">
+        <div class="nav-innerContainer">
+          <h2 class="nav-heading">Cosmic UI</h2>
+        </div>
+        <div class="nav-innerContainer">
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+          <i class="fa fa-github nav-icon"></i>
+        </div>
+      </nav>
+
+      <div class="inner-container">
+        <aside class="sidebar customThemeBox">
+          <h2 class="drawer-title">Components</h2>
+
+          <ul>
+            <li class="list-item" >Alerts</li>
+            <li class="list-item" >Avatar</li>
+            <li class="list-item" >Badge</li>
+            <li class="list-item" >Button</li>
+            <li class="list-item" >Cards</li>
+            <li class="list-item" >Input</li>
+            <li class="list-item" >Image</li>
+          </ul>
+        </aside>
+
+        <main class="main-container customThemeBox">
+          <div id="cards">
+            <h1 class="title">Cards</h1>
+            <p class="subtitle">
+              Cards are used to display content as well as it gives user an
+              option to take action on that content, like e-commerce product
+              card
+            </p>
+
+            <h2 class="small-title">Vertical Card</h2>
+            <p class="para">
+              Vertical card with image, content and call to action buttons,there
+              are 2 variants blog card and e-commerce card, to use copy the
+              below html code.
+            </p>
+
+            <div class="container">
+              <div class="card-basic">
+                <div class="">
+                  <img
+                    class="card-img"
+                    src="https://media.macphun.com/img/uploads/customer/blog/347/15361508215b8fcd25b13f46.53184133.jpg?q=85&w=1680"
+                  />
+
+                  <div class="">
+                    <h3 class="card-heading">Our Changing Planet</h3>
+                    <small class="card-subHeading">by Kurt Wagner</small>
+                  </div>
+
+                  <p class="card-description">
+                    Visit ten places on our planet that are undergoing the
+                    biggest changes today.
+                  </p>
+                </div>
+
+                <div class="card-footer">
+                  <button class="card-btn">READ</button>
+                  <button class="card-btn">BOOKMARK</button>
+                  <img
+                    class="heart-icon"
+                    src="https://img.icons8.com/fluency-systems-regular/50/000000/like--v1.png"
+                  />
+                  <img src="../Components/icons/share.png" alt="share icon" />
+                  <img src="../Components/icons/more.png" alt="more icon" />
+                </div>
+              </div>
+
+              <div class="card-basic">
+                <div class="badge-container">
+                  <img
+                    class="card-img"
+                    src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                  />
+
+                  <div class="">
+                    <h3 class="card-heading">
+                      Nike Men's Flex 2020 Rn Running Shoe
+                    </h3>
+                    <small class="card-subHeading">Sport Shoes</small>
+                  </div>
+
+                  <p class="card-description text-bold">₹ 10,999</p>
+                </div>
+
+                <div class="card-footer">
+                  <button class="btn btn-ecommerce">
+                    <span class="icon"
+                      ><i class="fa fa-shopping-cart"></i
+                    ></span>
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <pre class="code-container"><code class="language-html">
+&lt;div class="card-basic"&gt;
+  &lt;div class=""&gt;
+    &lt;img
+      class="card-img"
+      src="https://media.macphun.com/img/uploads/customer/blog/347/15361508215b8fcd25b13f46.53184133.jpg?q=85&w=1680"
+    /&gt;
+
+    &lt;div class=""&gt;
+      &lt;h3 class="card-heading"&gt;Our Changing Planet&lt;/h3&gt;
+      &lt;small class="card-subHeading"&gt;by Kurt Wagner&lt;/small&gt;
+    &lt;/div&gt;
+
+    &lt;p class="card-description"&gt;
+      Visit ten places on our planet that are undergoing the biggest changes
+      today.
+    &lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class="card-footer"&gt;
+    &lt;button class="card-btn"&gt;READ&lt;/button&gt;
+    &lt;button class="card-btn"&gt;BOOKMARK&lt;/button&gt;
+    &lt;img
+      class="heart-icon"
+      src="https://img.icons8.com/fluency-systems-regular/50/000000/like--v1.png"
+    /&gt;
+    &lt;img src="../icons/share.png" class="" /&gt;
+    &lt;img src="../icons/more.png" class="" /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card-basic"&gt;
+  &lt;div class="badge-container"&gt;
+    &lt;img
+      class="card-img"
+      src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+    /&gt;
+
+    &lt;div class=""&gt;
+      &lt;h3 class="card-heading"&gt;Nike Men's Flex 2020 Rn Running Shoe&lt;/h3&gt;
+      &lt;small class="card-subHeading"&gt;Sport Shoes&lt;/small&gt;
+    &lt;/div&gt;
+
+    &lt;p class="card-description text-bold"&gt;₹ 10,999&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class="card-footer"&gt;
+    &lt;button class="btn btn-ecommerce"&gt;
+      &lt;span class="icon"&gt;&lt;i class="fa fa-shopping-cart"&gt;&lt;/i&gt;&lt;/span&gt;
+      Add to Cart
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+            </code></pre>
+
+            <h2 class="small-title">Horizontal Card</h2>
+            <p class="para">
+              Horizontal card with image, content and call to action buttons,
+              there are 2 variants blog card and e-commerce card, to use copy
+              the below html code.
+            </p>
+
+            <div class="container">
+              <div class="card-basic Card-horizontalImage-textContainer">
+                <div class="Card-horizontalImage-text">
+                  <img
+                    class="card-img Card-horizontalImage-text-img"
+                    src="https://media.macphun.com/img/uploads/customer/blog/347/15361508215b8fcd25b13f46.53184133.jpg?q=85&w=1680"
+                  />
+
+                  <div class="">
+                    <h3 class="card-heading">Our Changing Planet</h3>
+                    <small class="card-subHeading">by Kurt Wagner</small>
+                    <p
+                      class="card-description Card-horizontalImage-text-description"
+                    >
+                      Visit ten places on our planet that are undergoing the
+                      biggest changes today.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card-footer">
+                  <button class="card-btn">READ</button>
+                  <button class="card-btn">BOOKMARK</button>
+                  <img
+                    class="heart-icon"
+                    src="https://img.icons8.com/fluency-systems-regular/50/000000/like--v1.png"
+                  />
+                  <img src="../Components/icons/share.png" class="" />
+                  <img src="../Components/icons/more.png" class="" />
+                </div>
+              </div>
+
+              <div class="card-basic Card-horizontalImage-textContainer">
+                <div class="Card-horizontalImage-text">
+                  <img
+                    class="card-img Card-horizontalImage-text-img Card-horizontalImage-text-img-Ecommerce"
+                    src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                  />
+
+                  <div class="">
+                    <h3 class="card-heading">
+                      Nike Men's Flex 2020 Rn Running Shoe
+                    </h3>
+                    <small class="card-subHeading">Sport Shoes</small>
+                    <p class="card-description text-bold">₹ 10,999</p>
+                  </div>
+                </div>
+
+                <div class="card-footer">
+                  <button class="btn btn-text-icon btn-ecommerce">
+                    <span class="icon"
+                      ><i class="fa fa-shopping-cart"></i
+                    ></span>
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <pre class="code-container"><code class="language-html">
+&lt;div class="card-basic Card-horizontalImage-textContainer"&gt;
+  &lt;div class="Card-horizontalImage-text"&gt;
+    &lt;img
+      class="card-img Card-horizontalImage-text-img"
+      src="https://media.macphun.com/img/uploads/customer/blog/347/15361508215b8fcd25b13f46.53184133.jpg?q=85&w=1680"
+    /&gt;
+
+    &lt;div class=""&gt;
+      &lt;h3 class="card-heading"&gt;Our Changing Planet&lt;/h3&gt;
+      &lt;small class="card-subHeading"&gt;by Kurt Wagner&lt;/small&gt;
+      &lt;p class="card-description Card-horizontalImage-text-description"&gt;
+        Visit ten places on our planet that are undergoing the biggest changes
+        today.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class="card-footer"&gt;
+    &lt;button class="card-btn"&gt;READ&lt;/button&gt;
+    &lt;button class="card-btn"&gt;BOOKMARK&lt;/button&gt;
+    &lt;img
+      class="heart-icon"
+      src="https://img.icons8.com/fluency-systems-regular/50/000000/like--v1.png"
+    /&gt;
+    &lt;img src="../icons/share.png" class="" /&gt;
+    &lt;img src="../icons/more.png" class="" /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card-basic Card-horizontalImage-textContainer"&gt;
+  &lt;div class="Card-horizontalImage-text"&gt;
+    &lt;img
+      class="card-img Card-horizontalImage-text-img Card-horizontalImage-text-img-Ecommerce"
+      src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+    /&gt;
+
+    &lt;div class=""&gt;
+      &lt;h3 class="card-heading"&gt;Nike Men's Flex 2020 Rn Running Shoe&lt;/h3&gt;
+      &lt;small class="card-subHeading"&gt;Sport Shoes&lt;/small&gt;
+      &lt;p class="card-description text-bold"&gt;₹ 10,999&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class="card-footer"&gt;
+    &lt;button class="btn btn-text-icon btn-ecommerce"&gt;
+      &lt;span class="icon"&gt;&lt;i class="fa fa-shopping-cart"&gt;&lt;/i&gt;&lt;/span&gt;
+      Add to Cart
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+            </code></pre>
+
+            <h2 class="small-title">Badge & Dismiss Cards</h2>
+            <p class="para">
+              Badge cards comes with a badge which gives some information about
+              the card content or product, like bestseller, sold out ,etc.
+              Dismiss cards have a dismiss icon in top right corner to close the
+              card.
+            </p>
+
+            <div class="container">
+              <div class="card-basic">
+                <div class="badge-container">
+                  <img
+                    class="card-img"
+                    src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                  />
+                  <span class="card-withBadge">New</span>
+
+                  <div class="">
+                    <h3 class="card-heading">
+                      Nike Men's Flex 2020 Rn Running Shoe
+                    </h3>
+                    <small class="card-subHeading">Sport Shoes</small>
+                  </div>
+
+                  <p class="card-description text-bold">₹ 10,999</p>
+                </div>
+
+                <div class="card-footer">
+                  <button class="btn btn-ecommerce">
+                    <span class="icon"
+                      ><i class="fa fa-shopping-cart"></i
+                    ></span>
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+
+              <div class="card-basic">
+                <div class="badge-container">
+                  <img
+                    class="card-img"
+                    src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                  />
+                  <img
+                    class="dismiss-card"
+                    src="../Components/icons/close.png"
+                    alt="close icon"
+                  />
+
+                  <div class="">
+                    <h3 class="card-heading">
+                      Nike Men's Flex 2020 Rn Running Shoe
+                    </h3>
+                    <small class="card-subHeading">Sport Shoes</small>
+                  </div>
+
+                  <p class="card-description text-bold">₹ 10,999</p>
+                </div>
+
+                <div class="card-footer">
+                  <button class="btn btn-ecommerce">
+                    <span class="icon"
+                      ><i class="fa fa-shopping-cart"></i
+                    ></span>
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <pre class="code-container"><code class="language-html">
+&lt;div class="card-basic"&gt;
+  &lt;div class="badge-container"&gt;
+    &lt;img
+      class="card-img"
+      src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+    /&gt;
+    &lt;span class="card-withBadge"&gt;New&lt;/span&gt;
+
+    &lt;div class=""&gt;
+      &lt;h3 class="card-heading"&gt;Nike Men's Flex 2020 Rn Running Shoe&lt;/h3&gt;
+      &lt;small class="card-subHeading"&gt;Sport Shoes&lt;/small&gt;
+    &lt;/div&gt;
+
+    &lt;p class="card-description text-bold"&gt;₹ 10,999&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class="card-footer"&gt;
+    &lt;button class="btn btn-ecommerce"&gt;
+      &lt;span class="icon"&gt;&lt;i class="fa fa-shopping-cart"&gt;&lt;/i&gt;&lt;/span&gt;
+      Add to Cart
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card-basic"&gt;
+  &lt;div class="badge-container"&gt;
+    &lt;img
+      class="card-img"
+      src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+    /&gt;
+    &lt;img class="dismiss-card" src="../icons/close.png" alt="close icon" /&gt;
+
+    &lt;div class=""&gt;
+      &lt;h3 class="card-heading"&gt;Nike Men's Flex 2020 Rn Running Shoe&lt;/h3&gt;
+      &lt;small class="card-subHeading"&gt;Sport Shoes&lt;/small&gt;
+    &lt;/div&gt;
+
+    &lt;p class="card-description text-bold"&gt;₹ 10,999&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class="card-footer"&gt;
+    &lt;button class="btn btn-ecommerce"&gt;
+      &lt;span class="icon"&gt;&lt;i class="fa fa-shopping-cart"&gt;&lt;/i&gt;&lt;/span&gt;
+      Add to Cart
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+            </code></pre>
+
+            <h2 class="small-title">Text overlay card</h2>
+            <p class="para">
+              There is text overlay card with e-commerce version of out of stock
+              card.
+            </p>
+
+            <div class="container badge-container">
+              <div class="card-basic overlay-container badge-container">
+                <div class="badge-container">
+                  <img
+                    class="card-img"
+                    src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                  />
+                  <span class="card-withBadge">New</span>
+
+                  <div class="">
+                    <h3 class="card-heading">
+                      Nike Men's Flex 2020 Rn Running Shoe
+                    </h3>
+                    <small class="card-subHeading">Sport Shoes</small>
+                  </div>
+
+                  <p class="card-description text-bold">₹ 10,999</p>
+                </div>
+
+                <div class="card-footer">
+                  <button class="btn btn-ecommerce">
+                    <span class="icon"
+                      ><i class="fa fa-shopping-cart"></i
+                    ></span>
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+              <div class="overlay-text">Out of Stock</div>
+            </div>
+
+            <pre class="code-container"><code class="language-html">
+&lt;div class="card-basic overlay-container badge-container"&gt;
+  &lt;div class="badge-container"&gt;
+    &lt;img
+      class="card-img"
+      src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+    /&gt;
+    &lt;span class="card-withBadge"&gt;New&lt;/span&gt;
+
+    &lt;div class=""&gt;
+      &lt;h3 class="card-heading"&gt;Nike Men's Flex 2020 Rn Running Shoe&lt;/h3&gt;
+      &lt;small class="card-subHeading"&gt;Sport Shoes&lt;/small&gt;
+    &lt;/div&gt;
+
+    &lt;p class="card-description text-bold"&gt;₹ 10,999&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class="card-footer"&gt;
+    &lt;button class="btn btn-ecommerce"&gt;
+      &lt;span class="icon"&gt;&lt;i class="fa fa-shopping-cart"&gt;&lt;/i&gt;&lt;/span&gt;
+      Add to Cart
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="overlay-text"&gt;Out of Stock&lt;/div&gt;  
+            </code></pre>
+
+            <h2 class="small-title">Simple card</h2>
+            <p class="para">
+              Simple card with just content and call to action button. Copy the
+              code from below to use.
+            </p>
+
+            <div class="container">
+              <div class="card-basic">
+                <div class="badge-container">
+                  <div class="">
+                    <h3 class="card-heading">Our Changing Planet</h3>
+                    <small class="card-subHeading">by Kurt Wagner</small>
+                  </div>
+
+                  <p class="card-description">
+                    Visit ten places on our planet that are undergoing the
+                    biggest changes today.
+                  </p>
+                </div>
+
+                <div class="card-footer">
+                  <button class="btn btn-ecommerce">Button</button>
+                </div>
+              </div>
+            </div>
+
+            <pre class="code-container"><code class="language-html">
+&lt;div class="card-basic"&gt;
+  &lt;div class="badge-container"&gt;
+    &lt;div class=""&gt;
+      &lt;h3 class="card-heading"&gt;Our Changing Planet&lt;/h3&gt;
+      &lt;small class="card-subHeading"&gt;by Kurt Wagner&lt;/small&gt;
+    &lt;/div&gt;
+
+    &lt;p class="card-description"&gt;
+      Visit ten places on our planet that are undergoing the biggest changes
+      today.
+    &lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class="card-footer"&gt;
+    &lt;button class="btn btn-ecommerce"&gt;Button&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+            </code></pre>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
