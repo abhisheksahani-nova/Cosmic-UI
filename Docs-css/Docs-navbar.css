@@ -14,6 +14,10 @@
   color: white;
 }
 
+.nav-icon-container{
+  width: 10%;
+}
+
 .nav-heading {
   display: inline;
   margin: 0;

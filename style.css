@@ -1,25 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap");
 
-.homepage-content-container{
-    margin: 3rem;
-    padding: 4rem 4rem 4rem 9rem;
+.homepage-content-container {
+  margin: 3rem;
+  padding: 2.5rem 4rem 4rem 9rem;
 }
 
-.homepage-title{
-    font-family: 'Playfair Display', serif;
-    font-size: 6rem;
-    font-weight: 800;
-    margin-bottom: 1rem;
-    color: #FFC900;
+.homepage-title {
+  font-family: "Playfair Display", serif;
+  font-size: 6rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: var(--primary-clr);
 }
 
-.homepage-description{
-    font-family: 'Playfair Display', serif;
-    font-size: 1.3rem;
-    max-width: 72%;
-    color: #AAA492;
-    line-height: 1.3;
-    font-weight: 400;
+.homepage-description {
+  font-size: 1.3rem;
+  max-width: 70%;
+  color: var(--secondary-clr);
+  line-height: 1.3;
+  margin-top: 0.5rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.icon-resize {
+    font-size: 1.5rem;
+}
+
+.white{
+    background-color: var(--white);
+}
+
+.font-clr{
+    color: var(--secondary-clr);
+}
+
+.btn-custom{
+    border: 1px solid var(--secondary-clr);
+    color: var(--secondary-clr);
+}
+
+.btn-custom:hover{
+    border: 1px solid var(--primary-clr);
 }
