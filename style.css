@@ -50,10 +50,15 @@
 
 .btn-custom:hover {
   border: 1px solid var(--primary-clr);
+  color: var(--light-clr);
 }
 
 .pri-clr{
   color: var(--secondary-clr);
+}
+
+.pri-clr:hover{
+  color: var(--light-clr);
 }
 
 .light{
