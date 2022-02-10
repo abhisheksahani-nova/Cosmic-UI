@@ -32,22 +32,30 @@
 }
 
 .icon-resize {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
-.white{
-    background-color: var(--white);
+.white {
+  background-color: var(--white);
 }
 
-.font-clr{
-    color: var(--secondary-clr);
+.font-clr {
+  color: var(--secondary-clr);
 }
 
-.btn-custom{
-    border: 1px solid var(--secondary-clr);
-    color: var(--secondary-clr);
+.btn-custom {
+  border: 1px solid var(--secondary-clr);
+  color: var(--secondary-clr);
 }
 
-.btn-custom:hover{
-    border: 1px solid var(--primary-clr);
+.btn-custom:hover {
+  border: 1px solid var(--primary-clr);
+}
+
+.pri-clr{
+  color: var(--secondary-clr);
+}
+
+.light{
+  color: var(--light-clr);
 }

@@ -23,3 +23,11 @@
 .list-item:hover {
   background-color: var(--bg-clr);
 }
+
+.list-item-link{
+  text-decoration: none;
+}
+
+.font-blue-clr{
+  color: var(--font-clr);
+}

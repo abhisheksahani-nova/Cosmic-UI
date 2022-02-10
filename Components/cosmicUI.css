@@ -1,11 +1,8 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css";
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap");
 
 @import 'https://fonts.gstatic.com';
-@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap';
-@import 'https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap';
 
 @import "./alert/alert.css";
 @import "./avatar/avatar.css";
@@ -20,7 +17,8 @@ html {
 }
 
 body {
-  color: #555555;
+  color: #3E4152;
+  font-family: 'Roboto', sans-serif;
 }
 
 * {
@@ -32,6 +30,7 @@ body {
 :root {
   --primary-clr: #FFC900;
   --light-primary-clr: #c7d7ca;
+  --dark-primary-clr: #FF9F00;
 
   --secondary-clr: #AAA492;
 
@@ -59,7 +58,8 @@ body {
   --custom-dark-clr: #41464b;
 
   --border-clr: #f0f0f0;
-  --white: #fff;
+  --light-clr: white;
   --red: #db1e1b;
   --ecommerce-btn-clr: #333333;
+  --font-clr: #3E4152;
 }
