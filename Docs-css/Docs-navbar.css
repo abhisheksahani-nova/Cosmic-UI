@@ -16,7 +16,7 @@
   display: flex;
   justify-content: space-around;
   width: 16%;
-  color: white;
+  color: var(--light-clr);
 }
 
 .nav-icon-container {
@@ -38,5 +38,5 @@
 }
 
 .docSite-nav-clr{
-  color: #3E4152;
+  color: var(--font-clr);
 }

@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  color: #3E4152;
+  color: var(--font-clr);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -56,6 +56,15 @@ body {
   --custom-pri-clr: #e9e9eb;
   --custom-sec-clr: #707683;
   --custom-dark-clr: #41464b;
+
+  --gray-shade1: #393d3d;
+  --gray-shade2: #555555;
+  --gray-shade3: #6a6e6e;
+  --gray-shade4: #838686;
+  --gray-shade5: #C9CCD5;
+
+  --sky-blue: #32c1cd;
+
 
   --border-clr: #f0f0f0;
   --light-clr: white;
