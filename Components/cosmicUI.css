@@ -1,6 +1,8 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css";
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+@import 'https://fonts.gstatic.com';
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap';
 
 @import "./alert/alert.css";
 @import "./avatar/avatar.css";
@@ -15,7 +17,8 @@ html {
 }
 
 body {
-  color: #555555;
+  color: var(--font-clr);
+  font-family: 'Roboto', sans-serif;
 }
 
 * {
@@ -25,10 +28,11 @@ body {
 }
 
 :root {
-  --primary-clr: #aab8c1;
+  --primary-clr: #FFC900;
   --light-primary-clr: #c7d7ca;
+  --dark-primary-clr: #FF9F00;
 
-  --secondary-clr: #eedac1;
+  --secondary-clr: #AAA492;
 
   --bg-clr: #f6f5fb;
   --light-bg-clr: #ffffff;
@@ -53,8 +57,18 @@ body {
   --custom-sec-clr: #707683;
   --custom-dark-clr: #41464b;
 
+  --gray-shade1: #393d3d;
+  --gray-shade2: #555555;
+  --gray-shade3: #6a6e6e;
+  --gray-shade4: #838686;
+  --gray-shade5: #C9CCD5;
+
+  --sky-blue: #32c1cd;
+
+
   --border-clr: #f0f0f0;
-  --white: #fff;
+  --light-clr: white;
   --red: #db1e1b;
   --ecommerce-btn-clr: #333333;
+  --font-clr: #3E4152;
 }

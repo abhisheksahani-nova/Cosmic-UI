@@ -1,8 +1,7 @@
 .sidebar {
-  width: 18%;
+  width: 19%;
   height: 40rem;
   background-color: var(--light-bg-clr);
-  margin: 1rem;
   position: sticky;
   top: 0;
 }
@@ -23,4 +22,12 @@
 
 .list-item:hover {
   background-color: var(--bg-clr);
+}
+
+.list-item-link{
+  text-decoration: none;
+}
+
+.font-blue-clr{
+  color: var(--font-clr);
 }

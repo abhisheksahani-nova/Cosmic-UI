@@ -2,6 +2,7 @@
 @import "./Docs-layout.css";
 @import "./Docs-navbar.css";
 @import "./Docs.sidebar.css";
+@import "../Components/cosmicUI.css";
 
 
 .title{
