@@ -1,0 +1,94 @@
+.width-auto {
+  width: auto;
+}
+
+.width-100p {
+  width: 100%;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.mr-4 {
+  margin-right: 4rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.gap-resize {
+  margin-bottom: 1.5rem;
+}
+
+.font-resize {
+  font-size: 2.2rem;
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inherit-clr {
+  color: inherit;
+}
+
+.width-reset {
+  width: 18%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.f-size1 {
+  font-size: 1rem;
+}
+
+.b-bottom1 {
+  border-bottom: 1px solid var(--custom-pri-clr);
+}
+
+.cta-btn {
+  background-color: var(--plant-pri-clr);
+}
+
+.t-align-center {
+  text-align: center;
+}
+
+.font-small {
+  font-size: small;
+}
