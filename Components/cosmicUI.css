@@ -11,6 +11,11 @@
 @import "./cards/cards.css";
 @import "./image/image.css";
 @import "./input/input.css";
+@import "./navigation/navbar.css";
+@import "./list/list.css";
+@import "./typography/typography.css";
+@import "./modal/modal.css";
+@import "./utility.css";
 
 html {
   scroll-behavior: smooth;
