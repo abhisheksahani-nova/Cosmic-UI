@@ -1,0 +1,27 @@
+.list {
+  padding: 1rem;
+  width: 4rem;
+}
+
+.list li {
+  padding: 0.3rem;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+.stacked-list{
+    width: 18rem;
+}
+
+.list-content {
+  flex-direction: column;
+  margin-left: 1.2rem;
+  margin-top: 0.2rem;
+}
+
+.list-item{
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    border: 1px solid var(--border-clr);
+}
