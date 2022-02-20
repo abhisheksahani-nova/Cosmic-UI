@@ -6,6 +6,10 @@
   width: 100%;
 }
 
+.m-1{
+  margin: 1rem;
+}
+
 .ml-0 {
   margin-left: 0;
 }
