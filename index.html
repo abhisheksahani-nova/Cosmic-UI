@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cosmic UI</title>
-    <link rel="stylesheet" href="./Components/cosmicUI.css">
-    <link rel="stylesheet" href="./Docs-css/Docs-main.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/cbde1196cc.js" defer crossorigin="anonymous"></script>
+    <script src="./prism.js"></script>
+    <link rel="stylesheet" href="./prism.css" />
+    <link rel="stylesheet" href="./Components/cosmicUI.css" />
+    <link rel="stylesheet" href="./Docs-css/Docs-main.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/cbde1196cc.js"
+      defer
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav class="nav-bar white">
@@ -16,8 +22,16 @@
         <h2 class="nav-heading">Cosmic UI</h2>
       </div>
       <div class="nav-innerContainer nav-icon-container">
-        <a class="font-clr" href="https://www.linkedin.com/in/abhishek-sahani-698b12135/"><i class="fa-brands fa-linkedin icon-resize"></i></a>
-        <a class="font-clr nav-icon" href="https://github.com/abhisheksahani-nova"><i class="fa fa-github nav-icon"></i></a>
+        <a
+          class="font-clr"
+          href="https://www.linkedin.com/in/abhishek-sahani-698b12135/"
+          ><i class="fa-brands fa-linkedin icon-resize"></i
+        ></a>
+        <a
+          class="font-clr nav-icon"
+          href="https://github.com/abhisheksahani-nova"
+          ><i class="fa fa-github nav-icon"></i
+        ></a>
       </div>
     </nav>
     <main>
@@ -25,14 +39,35 @@
         <h1 class="homepage-title">Cosmic <span>UI</span></h1>
         <p class="homepage-description">
           Cosmic UI is one step solution to build fast, appealing and smooth UI.
-          So you can stop wrestling with UI by integrating Cosmic UI, and we can wrestle for you.
-          We have pre build style classes, that you can use in your code.
+          So you can stop wrestling with UI by integrating Cosmic UI, and we can
+          wrestle for you. We have pre build style classes, that you can use in
+          your code.
         </p>
         <div class="mt-2">
-          <button class="btn btn-outline btn-custom mr-1"><a class="list-item-link pri-clr" href="#">Installation</a></button>
-          <button class="btn"><a class="list-item-link light" href="./Doc.html/alert.html">Documentation</a></button>
+          <button class="btn btn-outline btn-custom mr-1">
+            <a class="list-item-link pri-clr" href="#installation">Installation</a>
+          </button>
+          <button class="btn">
+            <a class="list-item-link light" href="./Doc.html/alert.html"
+              >Documentation</a
+            >
+          </button>
         </div>
       </div>
     </main>
+
+    <section id="installation" class="installation-container">
+      <div>
+        <h2 class="font-clr mb-1">Installation</h2>
+        <p class="font-clr">
+          Copy and paste the code in the head tag of your html document. So that
+          you can style your components by just adding class names to your html
+          elements.
+        </p>
+      </div>
+      <pre class="code-container height-auto"><code class="language-html">
+        &lt;link  rel="stylesheet"  href="https://cosmic-ui.netlify.app/Components/cosmicUI.css"/&gt;
+      </code></pre>
+    </section>
   </body>
 </html>

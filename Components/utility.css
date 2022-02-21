@@ -2,8 +2,32 @@
   width: auto;
 }
 
+.height-auto{
+  height: auto;
+}
+
 .width-100p {
   width: 100%;
+}
+
+.width-30{
+  width: 30rem;
+}
+
+.pl-1{
+  padding-left: 1rem;
+}
+
+.pr-1{
+  padding-right: 1rem;
+}
+
+.pt-1{
+  padding-top: 1rem;
+}
+
+.pb-1{
+  padding-bottom: 1rem;
 }
 
 .m-1{
@@ -96,3 +120,8 @@
 .font-small {
   font-size: small;
 }
+
+.d-block{
+  display: block;
+}
+

@@ -64,3 +64,8 @@
 .light{
   color: var(--light-clr);
 }
+
+.installation-container{
+  margin: 6rem 4rem;
+}
+
