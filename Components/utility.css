@@ -96,3 +96,7 @@
 .font-small {
   font-size: small;
 }
+
+.d-block{
+  display: block;
+}
