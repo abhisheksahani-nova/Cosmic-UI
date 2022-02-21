@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../Components/cosmicUI.css" />
     <link rel="stylesheet" href="../Docs-css/Docs-main.css" />
     <link rel="stylesheet" href="../style.css" />
-    <title>Cosmic UI | Image</title>
+    <title>Cosmic UI | Modals</title>
     <script
       src="https://kit.fontawesome.com/cbde1196cc.js"
       defer
@@ -87,89 +87,68 @@
               >
             </li>
             <li class="list-item">
-              <a class="list-item-link font-blue-clr" href="./rating.html"
-                >Rating</a
-              >
+                <a class="list-item-link font-blue-clr" href="./rating.html"
+                  >Rating</a
+                >
             </li>
           </ul>
         </aside>
 
         <main class="main-container">
           <div id="alerts">
-            <h1 class="title">Image</h1>
+            <h1 class="title">Modal</h1>
             <p class="subtitle">
-              An image is a visual representation of something, it can be
-              responsive to fit the parent's width, and also can be customised
-              to be round shaped, curved sqaure shaped.
+              Modals are refer to any box that pops up and interrupts an action,
+              user is attempting to complete.
             </p>
 
-            <h2 class="small-title">Responsive image</h2>
+            <h2 class="small-title">Modal example</h2>
             <p class="para">
-              To make your image responsive, you can add class res-img to your
-              image, it will automatically fit to the parents container size.
-            </p>
-
-            <div class="container pd-2">
-              <img
-                class="res-img"
-                src="https://s3-us-east-2.amazonaws.com/capturetheatlas.com/wp-content/uploads/2020/06/09105454/Best-Milky-way-photographs-Utah.jpg"
-                alt=""
-              />
-            </div>
-
-            <pre class="code-container"><code class="language-html">
-&lt;img
-  class="res-img"
-  src="https://s3-us-east-2.amazonaws.com/capturetheatlas.com/wp-content/uploads/2020/06/09105454/Best-Milky-way-photographs-Utah.jpg"
-  alt=""
-/&gt;       
-            </code></pre>
-
-            <h2 class="small-title">Square & round shaped images</h2>
-            <p class="para">
-              To make your image square shaped you can add class sq-img to your
-              image, for rounded image to will have add class rounded-img (e.g.,
-              class="sq-img rounded-img")
+              To use modal component add modal class to the parent div element
+              and modal-footer class to the footer div element, check the below
+              code example for better clarity.
             </p>
 
             <div class="container">
-              <img
-                class="sq-img"
-                src="https://images.unsplash.com/photo-1643892648551-241d371de669?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-                alt="ocean image"
-              />
-
-              <img
-                class="sq-img"
-                src="https://images.unsplash.com/photo-1643892632961-994a10fc139c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
-                alt="beach image"
-              />
-
-              <img
-                class="sq-img rounded-img"
-                src="https://cdn.pixabay.com/photo/2016/10/21/14/46/fox-1758183__340.jpg"
-                alt="snow wildlife image"
-              />
+              <div class="modal">
+                <div class="mb-1">
+                  <h2>Lorem ipsum</h2>
+                </div>
+                <div class="mb-1">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer.
+                  </p>
+                </div>
+                <div class="modal-footer d-flex mb-1">
+                  <button class="btn btn-secondary">Close</button>
+                  <button class="btn btn-secondary">Continue!</button>
+                </div>
+                <i class="fa-solid fa-xmark dismiss-card"></i>
+              </div>
             </div>
 
             <pre class="code-container"><code class="language-html">
-&lt;img
-    class="sq-img"
-    src="https://images.unsplash.com/photo-1643892648551-241d371de669?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-    alt="ocean image"
-/&gt;
-
-&lt;img
-    class="sq-img"
-    src="https://images.unsplash.com/photo-1643892632961-994a10fc139c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
-    alt="beach image"
-/&gt;
-
-&lt;img
-    class="sq-img rounded-img"
-    src="https://cdn.pixabay.com/photo/2016/10/21/14/46/fox-1758183__340.jpg"
-    alt="snow wildlife image"
-/&gt;
+&lt;div class="modal"&gt;
+  &lt;div class="mb-1"&gt;
+    &lt;h2&gt;Lorem ipsum&lt;/h2&gt;
+  &lt;/div&gt;
+  &lt;div class="mb-1"&gt;
+    &lt;p&gt;
+      Lorem Ipsum is simply dummy text of the printing and
+      typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown
+      printer.
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="modal-footer d-flex mb-1"&gt;
+    &lt;button class="btn btn-secondary"&gt;Close&lt;/button&gt;
+    &lt;button class="btn btn-secondary"&gt;Continue!&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;i class="fa-solid fa-xmark dismiss-card"&gt;&lt;/i&gt;
+&lt;/div&gt;
             </code></pre>
           </div>
         </main>

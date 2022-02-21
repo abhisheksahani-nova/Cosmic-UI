@@ -1,0 +1,10 @@
+.modal{
+    width: 25rem;
+    padding: 1rem;
+    background-color: var(--bg-clr);
+    position: relative;
+}
+
+.modal-footer{
+    justify-content: space-between;
+}

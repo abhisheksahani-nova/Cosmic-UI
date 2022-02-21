@@ -37,7 +37,7 @@
 }
 
 .btn-secondary {
-  background-color: var(--secondary-clr);
+  background-color: var(--custom-sec-clr);
 }
 
 .btn-success {
