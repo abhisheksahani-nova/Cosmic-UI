@@ -1,0 +1,9 @@
+.rating-star-inp {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.rating-star-icon {
+  color: var(--dark-primary-clr);
+}
