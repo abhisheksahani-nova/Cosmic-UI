@@ -46,7 +46,7 @@ Copy and paste the below code in the head tag of your html document. So that
 you can style your components by just adding class names to your html
 elements.
 
- <link  rel="stylesheet"  href="https://cosmic-ui.netlify.app/Components/cosmicUI.css"/>
+ &lt;link  rel="stylesheet"  href="https://cosmic-ui.netlify.app/Components/cosmicUI.css"/&gt;
     
 ## Feedback
 
