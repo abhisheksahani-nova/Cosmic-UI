@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cosmic UI - list</title>
     <script src="../prism.js"></script>
     <link rel="stylesheet" href="../prism.css" />
     <link rel="stylesheet" href="../Components/cosmicUI.css" />
     <link rel="stylesheet" href="../Docs-css/Docs-main.css" />
     <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../Components/grid/grid.css" />
+    <title>Cosmic UI | Grid</title>
     <script
       src="https://kit.fontawesome.com/cbde1196cc.js"
       defer
@@ -115,120 +116,51 @@
         </aside>
 
         <main class="main-container">
-          <div id="buttons">
-            <h1 class="title">List</h1>
+          <div id="alerts">
+            <h1 class="title">Grid</h1>
             <p class="subtitle">
-              Lists are used to group together related pieces of information so
-              they are clearly associated with each other and easy to read.
+              Grids are used to make dynamic and fluid layout , check some of
+              the examples and code below to use.
             </p>
 
-            <h2 class="small-title">Normal list</h2>
-            <p class="para">
-              To use add list class to the ul element in html. Check below code
-            </p>
+            <div class="container d-block">
+              <div class="grid-container two-item-grid">
+                <div class="grid-item">Item 1</div>
+                <div class="grid-item">Item 2</div>
+              </div>
 
-            <div class="alert-container height-auto">
-              <ul class="list list-style-none">
-                <li>Mango</li>
-                <li>Apple</li>
-                <li>Orange</li>
-                <li>Grape</li>
-              </ul>
+              <div class="grid-container three-item-grid">
+                <div class="grid-item">Item 1</div>
+                <div class="grid-item">Item 2</div>
+                <div class="grid-item">Item 3</div>
+              </div>
+
+              <div class="grid-container four-item-grid">
+                <div class="grid-item">Item 1</div>
+                <div class="grid-item">Item 2</div>
+                <div class="grid-item">Item 3</div>
+                <div class="grid-item">Item 4</div>
+              </div>
             </div>
 
             <pre class="code-container"><code class="language-html">
-&lt;ul class="list list-style-none"&gt;
-
-    &lt;li&gt;Mango&lt;/li&gt;
-    &lt;li&gt;Apple&lt;/li&gt;
-    &lt;li&gt;Orange&lt;/li&gt;
-    &lt;li&gt;Grape&lt;/li&gt;
-
-&lt;/ul&gt;
-            </code></pre>
-
-            <h2 class="small-title">Inline list</h2>
-
-            <div class="alert-container height-auto">
-              <ul class="list d-flex list-style-none width-auto">
-                <li>Mango</li>
-                <li>Apple</li>
-                <li>Orange</li>
-                <li>Grape</li>
-              </ul>
-            </div>
-
-            <pre class="code-container"><code class="language-html">
-&lt;ul class="list d-flex list-style-none"&gt;
-
-    &lt;li&gt;Mango&lt;/li&gt;
-    &lt;li&gt;Apple&lt;/li&gt;
-    &lt;li&gt;Orange&lt;/li&gt;
-    &lt;li&gt;Grape&lt;/li&gt;
-
-&lt;/ul&gt;
-            </code></pre>
-
-            <h2 class="small-title">Stacked list</h2>
-            <p class="para">
-              To use stacked list check the below code for reference.
-            </p>
-
-            <div class="alert-container height-auto">
-              <ul class="stacked-list list-style-none">
-                <li class="d-flex li-item">
-                  <img
-                    class="avatar xs"
-                    src="https://semantic-ui.com/images/avatar2/large/matthew.png"
-                    alt="avatar"
-                  />
-                  <div class="d-flex list-content">
-                    <h4>Jammy</h4>
-                    <small>online</small>
-                  </div>
-                </li>
-                <li class="d-flex li-item">
-                  <img
-                    class="avatar xs"
-                    src="https://semantic-ui.com/images/avatar2/large/kristy.png"
-                    alt="avatar"
-                  />
-                  <div class="d-flex list-content">
-                    <h4>Rishi</h4>
-                    <small>offline</small>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-            <pre class="code-container"><code class="language-html">
-&lt;ul class="stacked-list list-style-none"&gt;
-
-    &lt;li class="d-flex li-item"&gt;
-        &lt;img
-            class="avatar xs"
-            src="https://semantic-ui.com/images/avatar2/large/matthew.png"
-            alt="avatar"
-        /&gt;
-        &lt;div class="d-flex list-content"&gt;
-            &lt;h4&gt;Jammy&lt;/h4&gt;
-            &lt;small&gt;online&lt;/small&gt;
-        &lt;/div&gt;
-    &lt;/li&gt;
-
-    &lt;li class="d-flex li-item"&gt;
-        &lt;img
-            class="avatar xs"
-            src="https://semantic-ui.com/images/avatar2/large/kristy.png"
-            alt="avatar"
-        /&gt;
-        &lt;div class="d-flex list-content"&gt;
-            &lt;h4&gt;Rishi&lt;/h4&gt;
-            &lt;small&gt;offline&lt;/small&gt;
-        &lt;/div&gt;
-    &lt;/li&gt;
-
-&lt;/ul&gt;
+&#60;div class="grid-container two-item-grid"&#62;
+    &#60;div class="grid-item"&#62;Item 1&#60;/div&#62;
+    &#60;div class="grid-item"&#62;Item 2&#60;/div&#62;
+&#60;/div&#62;
+              
+&#60;div class="grid-container three-item-grid"&#62;
+    &#60;div class="grid-item"&#62;Item 1&#60;/div&#62;
+    &#60;div class="grid-item"&#62;Item 2&#60;/div&#62;
+    &#60;div class="grid-item"&#62;Item 3&#60;/div&#62;
+&#60;/div&#62;
+              
+&#60;div class="grid-container four-item-grid"&#62;
+    &#60;div class="grid-item"&#62;Item 1&#60;/div&#62;
+    &#60;div class="grid-item"&#62;Item 2&#60;/div&#62;
+    &#60;div class="grid-item"&#62;Item 3&#60;/div&#62;
+    &#60;div class="grid-item"&#62;Item 4&#60;/div&#62;
+&#60;/div&#62;              
             </code></pre>
           </div>
         </main>
