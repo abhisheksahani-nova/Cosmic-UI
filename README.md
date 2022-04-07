@@ -38,6 +38,7 @@ https://cosmic-ui.netlify.app/
 - Navigation
 - Rating
 - Typograpghy
+- Grid
 
 
 ## Installation
