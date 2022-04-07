@@ -1,6 +1,6 @@
 .sidebar {
   width: 19%;
-  height: 40rem;
+  height: fit-content;
   background-color: var(--light-bg-clr);
   position: sticky;
   top: 0;
